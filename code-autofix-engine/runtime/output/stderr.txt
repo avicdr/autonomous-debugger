@@ -1,0 +1,1 @@
+[2025-11-27 17:09:40] [INFO] Executing sandboxed code: C:\Users\Avi\AppData\Local\Temp\tmp26xqrvov.py

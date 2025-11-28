@@ -1,0 +1,20 @@
+# Core runtime utilities
+psutil==5.9.8
+
+# LLM backends
+llama-cpp-python==0.2.41       # Required only if MODEL_BACKEND="llama_cpp"
+
+# Optional—ensure colored logs behave consistently
+colorama==0.4.6
+
+# If JSON reports might need tooling enhancements
+orjson==3.10.9
+
+# AST fixes use stdlib ast => no extra dependency
+# Sandbox uses only stdlib resource/subprocess/tempfile => no dependency
+# Code merging uses difflib (stdlib)
+
+# NOTE:
+# If running on macOS, you may need:
+#   pip install "llama-cpp-python==0.2.41" --no-cache-dir --force-reinstall
+# Because it compiles C++ locally.
